@@ -1,3 +1,15 @@
+#!/usr/bin/env python3
+# /etc/init.d/camera_trap.py
+### BEGIN INIT INFO
+# Provides:          camera_trap.py
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start daemon at boot time
+# Description:       Enable service provided by daemon.
+### END INIT INFO
+
 import os
 import RPi.GPIO as GPIO
 import time
