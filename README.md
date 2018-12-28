@@ -5,3 +5,6 @@ Records a video after a movement is detected by a motion detection sensor (e.g.,
 - Raspberry Pi 3 Model B+
 - Raspberry Pi Camera V 2.1 (including connection cable)
 - PIR Infrared Motion Sensor (HC-SR501)
+
+## Picture of the test setting:
+![hardware](https://raw.githubusercontent.com/jschito/camera_trap/master/pics/pic1.jpg)
